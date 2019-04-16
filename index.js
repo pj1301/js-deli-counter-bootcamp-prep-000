@@ -19,7 +19,7 @@ function currentLine(line) {
   if (line.length === 0) {
     return "The line is currently empty." //notice that line doesn't become the name of the line in question because it is not inside `${}`
   }
-  if (parseInt(line.length) > 0) {
+  if (parseInt(line.length) > 0) { // could do else {}
     let whosLeft = [];
      let i = -1; //had to set to -1 to make the counter work
      while (i++ < line.length-1) { // totally bodged this but it worked.
