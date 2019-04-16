@@ -31,3 +31,7 @@ function currentLine(line) {
 
     }
   }
+// i = 0
+// while (i < line.length) {
+// i++  
+// }
