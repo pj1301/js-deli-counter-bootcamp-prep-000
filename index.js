@@ -24,21 +24,10 @@ function currentLine(line) {
      let i = -1; //had to set to -1 to make the counter work
      while (i++ < line.length-1) { // totally bodged this but it worked.
          whoseLeft.push(`${i+1}. ${line[i]}`)
-         return whoseLeft
          //.join(', ');
-//     } return `The line is currently: ${whoseLeft[i]}.`
+     } return `The line is currently: ${whoseLeft[i]}.`
 
     // for (let i = 0; i < line.length; i++) {
-    //
-    // return `The line is currently: ${line[i]}.`
-
-
-    // let i = 0
-    // i++
-    // while (i < line.length) {
-    //   return `The line is currently: ${line[i]}.`
-    // }
-
 
     }
   }
