@@ -20,12 +20,12 @@ function currentLine(line) {
     return "The line is currently empty." //notice that line doesn't become the name of the line in question because it is not inside `${}`
   }
   if (parseInt(line.length) > 0) {
-    let whoseLeft = [];
+    let whosLeft = [];
      let i = -1; //had to set to -1 to make the counter work
      while (i++ < line.length-1) { // totally bodged this but it worked.
-         whoseLeft.push(`${i+1}. ${line[i]}`)
+         whosLeft.push(`${i+1}. ${line[i]}`)
          //.join(', ');
-     } return `The line is currently: ${whoseLeft[i]}.`
+     } return `The line is currently: ${whosLeft[i]}.`
 
     // for (let i = 0; i < line.length; i++) {
 
