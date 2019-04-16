@@ -24,8 +24,8 @@ function currentLine(line) {
      let i = -1; //had to set to -1 to make the counter work
      while (i++ < line.length-1) { // totally bodged this but it worked.
          whosLeft.push(`${i+1}. ${line[i]}`)
-         //.join(', ');
-     } return `The line is currently: ${whosLeft[i]}.`
+         return whosLeft.join(', ');
+//     } return `The line is currently: ${whosLeft[i]}.`
 
     // for (let i = 0; i < line.length; i++) {
 
